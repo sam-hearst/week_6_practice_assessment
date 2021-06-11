@@ -2,10 +2,11 @@
 
 Your objective is to create a social media feed to the given specifications.
 
-1. `npm install` to install any dependencies
-2. Fill out code in `recommendations.js`
-3. `node recommendations.js` to run local test cases
-4. `npm test` to run the test specs
+1. Clone the assessment repository from the [starter].
+2. `npm install` to install any dependencies
+3. Fill out code in `recommendations.js`
+4. `node recommendations.js` to run local test cases
+5. `npm test` to run the test specs
 
 If you want to run the tests for one problem file at a time, you can do so
 with the following command in your terminal:
@@ -122,12 +123,6 @@ them by the `similarityScore` between them and the base user.
 Alice's recommended friends-of-friends are Charlie (ID: 3, similarity: 0.5)
 and Eve (ID: 5, similarity: 0.2) so `recommendFriends(1)` would return `[3, 5]`.
 
-## Usage
-
-1. Clone the assessment repository from the starter.
-2. `cd` into the folder and `npm install` to install dependencies
-3. **Run the tests by typing `npm test`**.
-
 ## Submission
 
 When you are ready to submit:
@@ -136,4 +131,4 @@ When you are ready to submit:
 2. Zip up your folder
 3. Upload it
 
-[https://github.com/appacademy/assessment-for-week-06-v2-practice-graphs]: https://github.com/appacademy/assessment-for-week-06-v2-practice-graphs
+[starter]: https://github.com/appacademy/assessment-for-week-06-v2-practice-graphs
